@@ -1,0 +1,49 @@
+font-face {
+    font-family: 'CursedTimer';
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'CursedTimer', monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #111827;
+    max-width: 340px;
+    padding: 32px;
+    border-radius: 16px;
+    gap: 20px; /* Adds space between Home and Guest sections */
+}
+
+.scorecard {
+    text-align: center;
+}
+
+h1 {
+    width: 56px;
+    background-color: black;
+    color: coral;
+    border-radius: 4px;
+    margin: 16px auto 16px auto;
+}
+
+h3 {
+    color: aliceblue;
+    margin: 0px;
+}
+
+button {
+    border: 1px solid white;
+    background-color: #111827;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4px;
+    border-radius: 4px;
+}
